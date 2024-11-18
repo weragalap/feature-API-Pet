@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: "Install Newman"
-          command: npm install -g newman
+          command: npm install -g newman --unsafe-perm
       - run:
           name: "test-PetStore"
           command: |
