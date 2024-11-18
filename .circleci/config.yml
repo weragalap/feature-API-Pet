@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   test-PetStore:
     docker:
-      - image: cimg/base:current
+      - image: circleci/node:current
     steps:
       - checkout
       - run:
