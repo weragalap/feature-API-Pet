@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: "Install Newman"
+          command: npm install -g newman
+      - run:
           name: "test-PetStore"
           command: |
             newman run Swagger_Petstore.postman_collection.json -e Pet_env.postman_environment.json
