@@ -1,17 +1,16 @@
 version: 2.1
-
 jobs:
-  test:
+  test-PetStore:
     docker:
       - image: cimg/base:current
     steps:
       - checkout
       - run:
-          name: "Run Newman Tests"
+          name: "test-PetStore"
           command: |
             newman run Swagger_Petstore.postman_collection.json -e Pet_env.postman_environment.json
+
 workflows:
-  version: 2
-  test_workflow:
+  test-PetStore-workflow: 
     jobs:
-      - test
+      - test-PetStore
