@@ -1,1 +1,1 @@
-![CircleCI](https://app.circleci.com/pipelines/circleci/FhtsUZBs5fbHcCZDacRExh/7e44637a-fe6a-4b90-9749-26a8861b1fca?branch=main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/FhtsUZBs5fbHcCZDacRExh/GbLWJYT7UmFXrD4BprqnLy/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/FhtsUZBs5fbHcCZDacRExh/GbLWJYT7UmFXrD4BprqnLy/tree/main)
